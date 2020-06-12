@@ -35,16 +35,16 @@
 	<h2>Ada Hotel - Réservation</h2>
 
 	<form>
-		<div class="">
+		<div class="resa">
 			<h3>Informations de réservation</h3>
 			<input type="text" name="" value="" placeholder="Prénom"> <br>
 			<input type="text" name="" value="" placeholder="Nom"> <br>
 			<input type="email" name="" value="" placeholder="e-mail"> <br>
 		</div>
 
-		<br><hr><br>
 
-		<div>
+
+		<div class="resa_chambre">
 			<h3>Choix de la chambre et hôtes</h3>
 			<p>Vous souhaitez réserver une </p>
 			<select class="deroul" name="type chambre">
@@ -66,9 +66,9 @@
 			<input type="radio" name="pet" value="" id="no"> <label for="no">non</label> <br>
 		</div>
 
-		<br><hr><br>
 
-		<div>
+
+		<div class="resa_date">
 			<h3>Les dates de votre séjour</h3>
 			<label for="">Date de check-in </label>
 			<input type="date" name="date" value="date_in" ><br>
@@ -76,13 +76,15 @@
 			<input type="date" name="date" value="date_out" ><br>
 			<label for="">Merci de nous indiquer votre horaire d'arrivée </label>
 			<input type="time" name="time" value="time_in" > <br>
-			<textarea name="name" rows="2" cols="100" placeholder="Avez-vous d'autres informations à nous communiquer?"></textarea> <br>
 		</div>
 
-		<br><hr><br>
+		<div class="resa_info">
+			<textarea name="name" rows="2" cols="100" placeholder="Avez-vous d'autres informations à nous communiquer?"></textarea>
+		</div>
+
 
 		<h3>Règlement</h3>
-		<div>
+		<div class="resa_regl">
 			<p>Insérez ici les informations de votre carte bancaire/de crédit</p>
 			<select class="deroul" name="">
 				<label for="">Type de carte</label>
@@ -95,13 +97,14 @@
 			<input type="date" name="date" value="date_in" >
 			<input type="text" name="" value="" rows="1" cols="33" placeholder="Titulaire de la carte">
 		</div>
-		<br>
-		<div class="">
+
+
+		<div class="resa_submit">
 			<input type="submit" name="" value="Envoyez votre demande">  <br>
 		</div>
 	</form>
 
-	<br><hr><br><br>
+
 
 	<footer>
 		<div class="logo">

@@ -5,7 +5,6 @@ body{
   background-image: url(../images/fond3.jpg);
   box-shadow: 0 0 0 1000px rgba(172, 253, 137, 0.7) inset;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   font-family: 'Comfortaa', cursive;
 }
@@ -24,6 +23,7 @@ ul{
   padding: 20px;
   background-color: rgba(124, 157, 100, 0.84);
   max-width: 240px;
+  margin-bottom: 20px;
 }
 p{
   font-size: 1em;
@@ -100,6 +100,7 @@ input{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 50px;
 }
 .introduction{
   display: flex;
@@ -113,6 +114,8 @@ input{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 .p_chambre{
   margin: 30px;
@@ -133,10 +136,8 @@ strong{
   font-size: 1.8em;
   font-weight: bold;
 }
-hr{
-  font-size: 2px;
-  color: rgba(102, 41, 41, 0.86);
-  box-shadow: 8px 8px 12px #060606;
+.resa, .resa_chambre, .resa_date, .resa_info, .resa_regl, .resa_submit, .presentation{
+  margin-bottom: 60px;
 }
 footer{
   display: flex;
@@ -244,6 +245,7 @@ a{
   height: 120px;
   width: auto;
   vertical-align:text-bottom;
+  margin-bottom: 100px;
 }
 #titretel{
   color: #fff;
